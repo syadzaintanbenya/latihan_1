@@ -3,6 +3,7 @@ package tugas1;
 //class pegawai mewariskan sifat ke class Gaji
 //Polymorphisme(memiliki banyak bentuk)
 
+//diowncasting karena class gaji extends dari class pegawai
 public class Gaji extends Pegawai {
     private double salary; // gaji tahunan
     public Gaji (String name, String address, int number, double 
